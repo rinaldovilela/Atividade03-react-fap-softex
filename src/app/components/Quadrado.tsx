@@ -1,5 +1,5 @@
-import "./style.css";
+import './style.css'
 
 export function Quadrado() {
-  return <div className="quadrado">Quadrado</div>;
+    return <div className="quadrado">Quadrado</div>
 }

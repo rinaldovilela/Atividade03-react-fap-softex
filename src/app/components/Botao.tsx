@@ -4,5 +4,5 @@ export function Botao() {
     const handleClick = () => {
         console.log('Olá!!!')
     }
-    return (<button onClick={handleClick}>Diga Oi!</button>);
+    return (<button className='botao' onClick={handleClick}>Diga Oi!</button>);
 }
