@@ -66,9 +66,21 @@ header {
 }
 
 .botao {
-    height: 30px;
-    width: 60px;
+    background: #06f;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 2s;
     cursor: pointer;
+}
+
+.botao:hover {
+    opacity: 0.8;
+    background: linear-gradient(45deg, #f06, #9f6, #06f, #f06);
 }
 
 .section-listaItens {
@@ -125,6 +137,31 @@ header {
     border: #06f solid 1px;
     border-radius: 15px;
     padding: 10px;
+}
+.footer {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-info {
+    margin-top: 1rem;
+}
+
+.footer p {
+    margin: 0.5rem 0;
 }
 
 @keyframes gradientAnimation {

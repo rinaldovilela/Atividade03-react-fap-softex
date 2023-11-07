@@ -2,6 +2,7 @@
 
 import { Botao } from './components/Botao'
 import { Cabecalho } from './components/Cabecalho'
+import { Footer } from './components/Footer'
 import { Imagem } from './components/Imagem'
 import { ListaItens } from './components/ListaItens'
 import { Paragrafo } from './components/Paragrafo'
@@ -35,6 +36,10 @@ export default function Home() {
                 <p>Parágrafo = &gt;</p>
                 <Paragrafo />
             </section>
+            <footer>
+                <Footer />
+            </footer>
+                  
         </main>
     )
 }
